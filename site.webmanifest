@@ -1,0 +1,28 @@
+{
+  "name": "Aloe House Art Gallery",
+  "short_name": "Aloe House",
+  "description": "Where nature meets art. Original art in the Loskop Valley.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14291c",
+  "theme_color": "#14291c",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
