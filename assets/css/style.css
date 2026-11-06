@@ -225,6 +225,7 @@ button.frame:active { transform: scale(.992); }
   background: radial-gradient(ellipse 50% 58% at 50% 34%, rgba(255, 235, 190, .15), rgba(255, 235, 190, 0) 72%);
 }
 .hang .frame { position: relative; }
+.hang figcaption { position: relative; z-index: 1; }
 .walk__end { flex: none; width: min(78vw, 360px); scroll-snap-align: center; }
 .walk__end p { font-family: var(--display); font-size: clamp(1.6rem, 2.6vw, 2.4rem); line-height: 1.14; margin-bottom: 22px; }
 
