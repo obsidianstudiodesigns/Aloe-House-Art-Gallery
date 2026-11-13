@@ -1,153 +1,254 @@
 [
   {
     "slug": "lizette-portrait",
-    "title": "Portrait with aloe and lace",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.25.jpeg",
+    "image": "lizette-portrait",
     "artist": "Lizette Nel",
     "year": "2026",
-    "medium": "Mixed media on linen",
-    "sample": false,
-    "image": "lizette-portrait",
-    "widths": [420, 720, 1200],
-    "ratio": 0.704,
     "frame": "gilt",
-    "alt": "Painting on linen of a woman in profile. Bare branches grow from her hair, a sunbird flies past, and a farmhouse, a winding road and a flowering aloe rise from her shoulder beside a panel of white lace.",
-    "wall": { "h": 64, "y": -2 }
-  },
-  {
-    "slug": "aloe-dusk",
-    "title": "Winter candles",
-    "artist": "",
-    "year": "",
-    "medium": "Oil on canvas",
-    "sample": true,
-    "image": "sample-aloe-dusk",
-    "widths": [560, 1000],
-    "ratio": 0.8,
-    "frame": "oak",
-    "alt": "Thickly painted aloe in bloom against a violet and apricot dusk sky over dark hills.",
-    "wall": { "h": 46, "y": -9 }
+    "en": {
+      "title": "Portrait with aloe and lace",
+      "medium": "Mixed media on linen",
+      "alt": "Painting on linen of a woman in profile. Bare branches grow from her hair, a sunbird flies past, and a farmhouse, a winding road and a flowering aloe rise from her shoulder beside a panel of white lace."
+    },
+    "af": {
+      "title": "Portret met aalwyn en kant",
+      "medium": "Gemengde media op linne",
+      "alt": "Skildery op linne van 'n vrou in profiel. Kaal takke groei uit haar hare, 'n suikerbekkie vlieg verby, en 'n plaashuis, 'n kronkelpad en 'n blommende aalwyn rys uit haar skouer langs 'n strook wit kant."
+    },
+    "wall": {
+      "h": 62,
+      "y": -2
+    },
+    "widths": [
+      420,
+      720,
+      1052
+    ],
+    "ratio": 0.7041
   },
   {
     "slug": "jeanne-bushbabies",
-    "title": "Two bushbabies",
-    "artist": "Jeanne Barnes Tosen",
-    "year": "2026",
-    "medium": "Painting",
-    "sample": false,
+    "source": "WhatsApp Image 2026-11-13 at 13.05.59 (2).jpeg",
     "image": "jeanne-bushbabies",
-    "widths": [420, 720],
-    "ratio": 1.44,
+    "artist": "Jeanne H Barnes",
+    "year": "2026",
     "frame": "gilt",
-    "alt": "Two wide-eyed bushbabies peeping over the rim of a rusted tin against a dark, speckled background.",
-    "wall": { "h": 40, "y": 4 }
-  },
-  {
-    "slug": "kudu",
-    "title": "Kudu bull",
-    "artist": "",
-    "year": "",
-    "medium": "Charcoal on toned paper",
-    "sample": true,
-    "image": "sample-kudu",
-    "widths": [560, 1000],
-    "ratio": 1,
-    "frame": "mat",
-    "alt": "Charcoal drawing of a kudu bull with long spiralling horns.",
-    "wall": { "h": 50, "y": -6 }
-  },
-  {
-    "slug": "strata",
-    "title": "Strata",
-    "artist": "",
-    "year": "",
-    "medium": "Earth pigments on canvas",
-    "sample": true,
-    "image": "sample-strata",
-    "widths": [560, 1000],
-    "ratio": 1.5,
-    "frame": "float",
-    "alt": "Abstract painting in horizontal bands of red ochre, rust, bone white and charcoal.",
-    "wall": { "h": 52, "y": 0 }
+    "en": {
+      "title": "Three bushbabies",
+      "medium": "Oil",
+      "alt": "Oil painting of three wide-eyed bushbabies peeping over the rim of a rusted tin against a dark background."
+    },
+    "af": {
+      "title": "Drie nagapies",
+      "medium": "Olieverf",
+      "alt": "Olieverfskildery van drie nagapies met groot oë wat oor die rand van 'n verroeste blik loer, teen 'n donker agtergrond."
+    },
+    "wall": {
+      "h": 44,
+      "y": 5
+    },
+    "widths": [
+      420,
+      720,
+      1200
+    ],
+    "ratio": 1.0
   },
   {
     "slug": "lizette-graphite",
-    "title": "Portrait with aloe, in graphite",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.26 (3).jpeg",
+    "image": "lizette-graphite",
+    "artist": "Lizette Nel",
+    "year": "2024",
+    "frame": "mat",
+    "en": {
+      "title": "Portrait with aloe, in graphite",
+      "medium": "Drawing",
+      "alt": "Graphite drawing of an older woman in a headscarf, her weathered face half in view beside a flowering aloe."
+    },
+    "af": {
+      "title": "Portret met aalwyn, in grafiet",
+      "medium": "Tekening",
+      "alt": "Grafiettekening van 'n ouer vrou met 'n kopdoek, haar verweerde gesig half sigbaar langs 'n blommende aalwyn."
+    },
+    "wall": {
+      "h": 54,
+      "y": -6
+    },
+    "widths": [
+      420,
+      720,
+      1021
+    ],
+    "ratio": 0.663
+  },
+  {
+    "slug": "jeanne-tomatoes",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.59.jpeg",
+    "image": "jeanne-tomatoes",
+    "artist": "Jeanne H Barnes",
+    "year": "2026",
+    "frame": "oak",
+    "en": {
+      "title": "Heirloom tomatoes",
+      "medium": "Oil",
+      "alt": "Oil painting of red, yellow and green heirloom tomatoes heaped in a dark bowl against a blue and rust background."
+    },
+    "af": {
+      "title": "Erfstuk-tamaties",
+      "medium": "Olieverf",
+      "alt": "Olieverfskildery van rooi, geel en groen erfstuk-tamaties in 'n donker bak teen 'n blou en roesbruin agtergrond."
+    },
+    "wall": {
+      "h": 40,
+      "y": -8
+    },
+    "widths": [
+      420,
+      720,
+      1200
+    ],
+    "ratio": 1.41
+  },
+  {
+    "slug": "lizette-dragonfly",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.26 (2).jpeg",
+    "image": "lizette-dragonfly",
+    "artist": "Lizette Nel",
+    "year": "2025",
+    "frame": "oak",
+    "en": {
+      "title": "Dragonfly",
+      "medium": "Mixed media on linen",
+      "alt": "A red dragonfly resting on a green leaf beside a stem of grass seed, painted and stitched on natural linen with a column of red cross-stitches."
+    },
+    "af": {
+      "title": "Naaldekoker",
+      "medium": "Gemengde media op linne",
+      "alt": "'n Rooi naaldekoker op 'n groen blaar langs 'n grasstingel, geskilder en geborduur op natuurlike linne met 'n ry rooi kruissteke."
+    },
+    "wall": {
+      "h": 50,
+      "y": 3
+    },
+    "widths": [
+      420,
+      720,
+      1030
+    ],
+    "ratio": 0.6745
+  },
+  {
+    "slug": "jeanne-hippos",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.59 (1).jpeg",
+    "image": "jeanne-hippos",
+    "artist": "Jeanne H Barnes",
+    "year": "",
+    "frame": "gilt",
+    "en": {
+      "title": "Hippos at play",
+      "medium": "Oil",
+      "alt": "Thickly painted oil of two hippos in green water, one with its mouth wide open, the water churning white around them."
+    },
+    "af": {
+      "title": "Seekoeie aan die speel",
+      "medium": "Olieverf",
+      "alt": "Dik geskilderde olieverfwerk van twee seekoeie in groen water, een met sy bek wyd oop, die water wit geklits om hulle."
+    },
+    "wall": {
+      "h": 40,
+      "y": -4
+    },
+    "widths": [
+      420,
+      720,
+      1200
+    ],
+    "ratio": 1.429
+  },
+  {
+    "slug": "lizette-ochre",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.26 (1).jpeg",
+    "image": "lizette-ochre",
+    "artist": "Lizette Nel",
+    "year": "2024",
+    "frame": "float",
+    "en": {
+      "title": "Woman in ochre",
+      "medium": "Painting",
+      "alt": "Portrait of a young woman with a nose ring and short natural hair, against an abstract background of ochre and white, with a red and black patterned band."
+    },
+    "af": {
+      "title": "Vrou in oker",
+      "medium": "Skildery",
+      "alt": "Portret van 'n jong vrou met 'n neusring en kort natuurlike hare, teen 'n abstrakte agtergrond van oker en wit, met 'n rooi en swart patroonband."
+    },
+    "wall": {
+      "h": 56,
+      "y": 0
+    },
+    "widths": [
+      420,
+      720,
+      1134
+    ],
+    "ratio": 0.8176
+  },
+  {
+    "slug": "jeanne-jug",
+    "source": "WhatsApp Image 2026-11-13 at 13.06.00.jpeg",
+    "image": "jeanne-jug",
+    "artist": "Jeanne H Barnes",
+    "year": "2026",
+    "frame": "black",
+    "en": {
+      "title": "Clay jug",
+      "medium": "Oil",
+      "alt": "Palette-knife oil painting of a pale clay jug with a curved handle in warm yellow and brown light."
+    },
+    "af": {
+      "title": "Kleikan",
+      "medium": "Olieverf",
+      "alt": "Olieverfskildery met 'n paletmes van 'n ligte kleikan met 'n geboë handvatsel in warm geel en bruin lig."
+    },
+    "wall": {
+      "h": 50,
+      "y": -7
+    },
+    "widths": [
+      420,
+      720,
+      1041
+    ],
+    "ratio": 0.6894
+  },
+  {
+    "slug": "lizette-goat",
+    "source": "WhatsApp Image 2026-11-13 at 13.05.26.jpeg",
+    "image": "lizette-goat",
     "artist": "Lizette Nel",
     "year": "2026",
-    "medium": "Drawing",
-    "sample": false,
-    "image": "lizette-graphite",
-    "widths": [420, 700],
-    "ratio": 1.367,
-    "frame": "black",
-    "alt": "Graphite drawing of a weathered face in close-up beside a flowering aloe.",
-    "wall": { "h": 38, "y": -8 }
-  },
-  {
-    "slug": "citrus",
-    "title": "Naartjies in enamel",
-    "artist": "",
-    "year": "",
-    "medium": "Oil on canvas",
-    "sample": true,
-    "image": "sample-citrus",
-    "widths": [560, 1000],
-    "ratio": 0.8,
     "frame": "gilt",
-    "alt": "Still life of oranges and peeled naartjies in a chipped white enamel basin on a rough table.",
-    "wall": { "h": 54, "y": 2 }
-  },
-  {
-    "slug": "thorn",
-    "title": "Thorn tree, low sun",
-    "artist": "",
-    "year": "",
-    "medium": "Hand-pulled linocut",
-    "sample": true,
-    "image": "sample-thorn",
-    "widths": [560, 1000],
-    "ratio": 1,
-    "frame": "black",
-    "alt": "Black linocut of a flat-topped thorn tree in front of a coral-red sun.",
-    "wall": { "h": 40, "y": -7 }
-  },
-  {
-    "slug": "roller",
-    "title": "Roller on thorn",
-    "artist": "",
-    "year": "",
-    "medium": "Acrylic on canvas",
-    "sample": true,
-    "image": "sample-roller",
-    "widths": [560, 1000],
-    "ratio": 0.8,
-    "frame": "oak",
-    "alt": "Lilac-breasted roller perched on a thorn branch against a loose ochre background."
-  },
-  {
-    "slug": "river",
-    "title": "Low water",
-    "artist": "",
-    "year": "",
-    "medium": "Watercolour on paper",
-    "sample": true,
-    "image": "sample-river",
-    "widths": [560, 1000],
-    "ratio": 1.5,
-    "frame": "mat",
-    "alt": "Loose watercolour of a wide, shallow river with sandbanks, bare trees and ochre hills."
-  },
-  {
-    "slug": "kloof",
-    "title": "Kloof at first light",
-    "artist": "",
-    "year": "",
-    "medium": "Oil on canvas",
-    "sample": true,
-    "image": "sample-kloof",
-    "widths": [560, 1000],
-    "ratio": 1.5,
-    "frame": "gilt",
-    "alt": "Palette-knife painting of pink and gold sandstone cliffs above still, misty water at dawn."
+    "en": {
+      "title": "Goat with aloe and lace",
+      "medium": "Mixed media",
+      "alt": "A goat with curved horns beside a flowering aloe on a warm yellow ground, with a crocheted lace flower and red stitched beads."
+    },
+    "af": {
+      "title": "Bok met aalwyn en kant",
+      "medium": "Gemengde media",
+      "alt": "'n Bok met geboë horings langs 'n blommende aalwyn op 'n warm geel agtergrond, met 'n gehekelde kantblom en rooi geborduurde krale."
+    },
+    "wall": {
+      "h": 50,
+      "y": 2
+    },
+    "widths": [
+      420,
+      720,
+      1200
+    ],
+    "ratio": 1.0
   }
 ]

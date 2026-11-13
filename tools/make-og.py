@@ -9,12 +9,18 @@ OUT = ROOT / "assets/img/og"
 OUT.mkdir(parents=True, exist_ok=True)
 CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
+P, B, T, G, H, J, S = "works/lizette-portrait-720.webp", "works/jeanne-bushbabies-720.webp", "works/jeanne-tomatoes-720.webp", "works/lizette-goat-720.webp", "photos/gallery-building-900.webp", "works/lizette-graphite-720.webp", "works/jeanne-hippos-720.webp"
 CARDS = {
-    "home": ("works/lizette-portrait-720.webp", .704, "gilt", "Aloe House Art Gallery", "Where nature meets art", "Original art and local talent in the Loskop Valley"),
-    "collection": ("works/jeanne-bushbabies-720.webp", 1.44, "gilt", "The collection", "Aloe House Art Gallery", "Original work by Lizette Nel and Jeanne Barnes Tosen"),
-    "lizette-nel": ("works/lizette-portrait-720.webp", .704, "gilt", "Lizette Nel", "Artist at Aloe House Art Gallery", "Earthy colour, soft texture, close detail"),
-    "jeanne-barnes-tosen": ("works/jeanne-bushbabies-720.webp", 1.44, "gilt", "Jeanne Barnes Tosen", "Artist at Aloe House Art Gallery", "Still lifes, wildlife and the platteland"),
-    "visit": ("works/lizette-graphite-700.webp", 1.367, "black", "Visit Aloe House", "De Wagendrift Boerdery, Loskop Valley", "Watch for the sign at the Olifants River bridge"),
+    "home": (P, .704, "gilt", "Aloe House Art Gallery", "Where nature meets art", "Original art and local talent in the Loskop Valley"),
+    "home-af": (P, .704, "gilt", "Aloe House Art Gallery", "Waar natuur en kuns ontmoet", "Oorspronklike kuns en plaaslike talent in die Loskopvallei"),
+    "collection": (B, 1.0, "gilt", "The collection", "Aloe House Art Gallery", "Original work by Lizette Nel and Jeanne H Barnes"),
+    "collection-af": (B, 1.0, "gilt", "Die versameling", "Aloe House Art Gallery", "Oorspronklike werk deur Lizette Nel en Jeanne H Barnes"),
+    "lizette-nel": (G, 1.0, "gilt", "Lizette Nel", "Mixed media and fine art", "Artist at Aloe House Art Gallery"),
+    "lizette-nel-af": (G, 1.0, "gilt", "Lizette Nel", "Gemengde media en fynkuns", "Kunstenaar by Aloe House Art Gallery"),
+    "jeanne-h-barnes": (T, 1.41, "oak", "Jeanne H Barnes", "Oil painter", "Artist at Aloe House Art Gallery"),
+    "jeanne-h-barnes-af": (T, 1.41, "oak", "Jeanne H Barnes", "Olieverfkunstenaar", "Kunstenaar by Aloe House Art Gallery"),
+    "visit": (H, 1.333, "black", "Visit Aloe House", "De Wagendrift Boerdery, Loskop Valley", "Watch for the sign at the Olifants River bridge"),
+    "visit-af": (H, 1.333, "black", "Besoek Aloe House", "De Wagendrift Boerdery, Loskopvallei", "Hou die bord by die Olifantsrivierbrug dop"),
 }
 
 TEMPLATE = """<!doctype html><meta charset="utf-8"><style>

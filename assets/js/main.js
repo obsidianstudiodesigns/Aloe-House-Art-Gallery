@@ -29,9 +29,7 @@
     };
 
     var whatsapp = function (w) {
-      var text = w.sample
-        ? 'Hello Aloe House, I would like to know more about your opening collection.'
-        : 'Hello Aloe House, I would like to know more about "' + w.title + '" by ' + w.artist + '.';
+      var text = window.AH.msg.replace('{title}', w.title).replace('{artist}', w.artist);
       return window.AH.wa + '?text=' + encodeURIComponent(text);
     };
 
@@ -47,16 +45,11 @@
       img.alt = w.alt;
       var year = w.year ? ', ' + esc(w.year) : '';
       labelEl.innerHTML =
-        (w.sample
-          ? '<p class="label__sample">Sample artwork</p>'
-          : '<p class="label__by">' + esc(w.artist) + '</p>') +
+        '<p class="label__by">' + esc(w.artist) + '</p>' +
         '<h2 class="label__title">' + esc(w.title) + year + '</h2>' +
         '<p class="label__medium">' + esc(w.medium) + '</p>' +
-        (w.sample
-          ? '<p class="room__note">This placeholder shows how the collection will be presented. It is not by the gallery’s artists and is not for sale.</p>'
-          : '<p class="room__note">Price on request. Ask us about availability, or arrange to see it in person.</p>') +
-        '<a class="btn btn--ink" href="' + whatsapp(w) + '" target="_blank" rel="noopener">' +
-        (w.sample ? 'Ask about the collection' : 'Enquire about this work') + '</a>';
+        '<p class="room__note">' + esc(window.AH.note) + '</p>' +
+        '<a class="btn btn--ink" href="' + whatsapp(w) + '" target="_blank" rel="noopener">' + esc(window.AH.enquire) + '</a>';
       try {
         history.replaceState(null, '', '#' + w.slug);
       } catch (err) { /* file:// or sandboxed preview */ }
@@ -154,6 +147,13 @@
     });
   }
 
+  /* Language switch: keep an open artwork when moving to the other language. */
+  document.querySelectorAll('.lang a[data-lang]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (location.hash.length > 1 && a.getAttribute('aria-current') !== 'true') a.href = a.href.split('#')[0] + location.hash;
+    });
+  });
+
   /* Collection filters */
   var salon = document.getElementById('salon');
   if (salon) {
@@ -200,7 +200,7 @@
         (a ? fMsg : fName).focus();
         return;
       }
-      var text = 'Hello Aloe House, this is ' + fName.value.trim() + '.\nAbout: ' + form.elements.about.value + '\n\n' + fMsg.value.trim();
+      var text = form.dataset.intro + ' ' + fName.value.trim() + '.\n' + form.dataset.about + ': ' + form.elements.about.value + '\n\n' + fMsg.value.trim();
       window.open('https://wa.me/27837982734?text=' + encodeURIComponent(text), '_blank', 'noopener');
     });
   }

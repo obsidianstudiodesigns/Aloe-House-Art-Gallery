@@ -111,6 +111,20 @@ button { font: inherit; color: inherit; }
 }
 .site-nav a:not(.btn):hover::after, .site-nav a[aria-current="page"]:not(.btn)::after { transform: scaleX(1); }
 
+/* Language switch */
+.head-end { display: flex; align-items: center; gap: clamp(16px, 2vw, 28px); }
+.lang { display: inline-flex; padding: 3px; border: 1px solid rgba(246, 239, 224, .4); border-radius: 2px; background: rgba(9, 21, 14, .35); }
+.lang a {
+  display: grid; place-items: center; min-width: 40px; height: 34px; padding: 0 8px; border-radius: 1px;
+  font-size: .8125rem; font-weight: 700; letter-spacing: .04em; text-decoration: none; color: var(--cream);
+  transition: background-color .18s ease, color .18s ease;
+}
+.lang a:hover { background: rgba(246, 239, 224, .12); }
+.lang a[aria-current="true"] { background: var(--cream); color: var(--ink); }
+.artist__role { color: var(--gold); font-weight: 600; margin-bottom: 6px; }
+.visit-photo { margin: 34px 0 0; }
+.visit-photo img { width: 100%; box-shadow: var(--cast); }
+
 /* Phone tab bar */
 .tabbar { display: none; }
 
@@ -177,7 +191,8 @@ button.frame:active { transform: scale(.992); }
   max-width: calc(var(--stage-x) + var(--stage-w) * .845 + 8px);
 }
 .hero__kicker { color: var(--gold); font-weight: 600; margin-bottom: clamp(10px, 1.4vh, 18px); }
-.hero h1 { font-size: min(clamp(2.9rem, calc(var(--stage-w) * .0565), 6.4rem), calc(var(--copy-w) / 6.3), calc((100vw - var(--art-cx) - var(--art-w) / 2 - 256px) / 6.3)); line-height: 1.02; }
+.hero h1 { font-size: min(clamp(2.9rem, calc(var(--stage-w) * .0565), 6.4rem), calc(var(--copy-w) / var(--h1-k, 6.3)), calc((100vw - var(--art-cx) - var(--art-w) / 2 - 256px) / var(--h1-k, 6.3))); line-height: 1.02; }
+html[lang="af-ZA"] .hero h1 { --h1-k: 7.4; }
 .hero__sub { max-width: 30ch; margin: clamp(14px, 2vh, 24px) 0 clamp(20px, 3vh, 34px); font-size: clamp(1.0625rem, 1.25vw, 1.3rem); color: #e4e6d6; }
 
 /* The picture light comes on, then the room. */
@@ -284,7 +299,7 @@ button.frame:active { transform: scale(.992); }
 
 /* Visit band */
 .visit-band { position: relative; }
-.visit-band__img { width: 100%; height: clamp(560px, 60vw, 900px); object-fit: cover; }
+.visit-band__img { width: 100%; height: clamp(560px, 60vw, 900px); object-fit: cover; object-position: 50% 8%; }
 .visit-card {
   position: absolute; z-index: 1; left: var(--gutter); bottom: clamp(30px, 4.4vw, 70px); width: min(calc(100% - var(--gutter) * 2), 560px);
   padding: clamp(24px, 3vw, 44px);
@@ -352,8 +367,8 @@ button.frame:active { transform: scale(.992); }
 
 /* Visit page */
 .visit-hero { position: relative; min-height: min(72svh, 720px); margin-top: -76px; display: flex; align-items: flex-end; overflow: hidden; isolation: isolate; }
-.visit-hero img { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.visit-hero::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(to top, var(--wall) 0%, rgba(20, 41, 28, .35) 46%, rgba(10, 20, 14, .45) 100%); }
+.visit-hero img { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; }
+.visit-hero::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(to top, var(--wall) 0%, rgba(20, 41, 28, .72) 34%, rgba(20, 41, 28, .2) 62%, rgba(10, 20, 14, .45) 100%); }
 .visit-hero__copy { padding: 110px var(--gutter) clamp(30px, 5vw, 60px); }
 .visit-hero h1 { font-size: clamp(3rem, 8vw, 7.4rem); margin-bottom: 14px; }
 .visit-hero p { max-width: 44ch; font-size: clamp(1.0625rem, 1.5vw, 1.3rem); }
@@ -455,6 +470,9 @@ button.frame:active { transform: scale(.992); }
   .site-head { height: 62px; justify-content: center; }
   .site-head.is-solid { box-shadow: 0 1px 0 rgba(214, 180, 112, .22); }
   .site-nav { display: none; }
+  .head-end { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); }
+  .lang a { min-width: 38px; height: 34px; }
+  .brand { margin-right: 64px; }
   .brand img { height: 42px; }
   .tabbar {
     position: fixed; z-index: 20; inset: auto 0 0 0; height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom);
