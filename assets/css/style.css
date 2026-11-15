@@ -248,7 +248,7 @@ html[lang="af-ZA"] .hero h1 { --h1-k: 7.4; }
   @media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) {
     .only-pin { display: block; }
     .only-swipe { display: none; }
-    .walk { height: 620svh; view-timeline: --walk block; }
+    .walk { height: 680svh; view-timeline: --walk block; }
     .walk__view {
       position: sticky; top: 0; height: 100svh; overflow: hidden; scroll-snap-type: none;
     }

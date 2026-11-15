@@ -250,5 +250,33 @@
       1200
     ],
     "ratio": 1.0
+  },
+  {
+    "slug": "jeanne-figs",
+    "source": "WhatsApp Image 2026-11-15 at 05.11.48.jpeg",
+    "image": "jeanne-figs",
+    "artist": "Jeanne H Barnes",
+    "year": "",
+    "frame": "gilt",
+    "en": {
+      "title": "Figs",
+      "medium": "Oil",
+      "alt": "Oil painting of two whole purple figs and a fig cut in half, its pink flesh glowing against a dark blue-grey background."
+    },
+    "af": {
+      "title": "Vye",
+      "medium": "Olieverf",
+      "alt": "Olieverfskildery van twee heel pers vye en 'n vy wat middeldeur gesny is, die pienk vrugvlees helder teen 'n donker blougrys agtergrond."
+    },
+    "wall": {
+      "h": 44,
+      "y": 4
+    },
+    "widths": [
+      420,
+      720,
+      1200
+    ],
+    "ratio": 1.3514
   }
 ]
