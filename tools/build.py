@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = "https://obsidianstudiodesigns.github.io/Aloe-House-Art-Gallery/"
+BASE = "https://www.aloehouseartgallery.co.za/"
 NAME = "Aloe House Art Gallery"
 PHONE_LOCAL = "083 798 2734"
 PHONE_INTL = "+27837982734"
@@ -733,7 +733,7 @@ def page_terms(path):
 
 def page_404(path):
     h = head(path, f"Page not found | {NAME}", "This page could not be found.", robots="noindex", alternates=False)
-    h = h.replace("<head>\n", '<head>\n<base href="/Aloe-House-Art-Gallery/">\n', 1)
+    h = h.replace("<head>\n", '<head>\n<base href="/">\n', 1)
     return h + header("404", None) + f"""<main id="main" class="page not-found">
 <span class="frame f-gilt not-found__frame" aria-hidden="true"><span></span></span>
 <h1>This wall is empty</h1>

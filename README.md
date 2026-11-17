@@ -2,7 +2,9 @@
 
 Website for Aloe House Art Gallery: original art by Lizette Nel and Jeanne H Barnes at De Wagendrift Boerdery in the Loskop Valley, near Groblersdal. Where nature meets art.
 
-Live: https://obsidianstudiodesigns.github.io/Aloe-House-Art-Gallery/ (English) and https://obsidianstudiodesigns.github.io/Aloe-House-Art-Gallery/af/ (Afrikaans)
+Live: https://www.aloehouseartgallery.co.za/ (English) and https://www.aloehouseartgallery.co.za/af/ (Afrikaans)
+
+Domain registered at GoDaddy (Obsidian Studio Designs account, client as registrant). DNS: four A records on `@` to GitHub Pages (185.199.108.153, .109, .110, .111) and `www` as a CNAME to `obsidianstudiodesigns.github.io`. The `CNAME` file in this repository sets the custom domain on GitHub Pages.
 
 Static site on GitHub Pages from `main`. The Python tools only run on your machine.
 

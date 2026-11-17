@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /tools/
 
-Sitemap: https://obsidianstudiodesigns.github.io/Aloe-House-Art-Gallery/sitemap.xml
+Sitemap: https://www.aloehouseartgallery.co.za/sitemap.xml
